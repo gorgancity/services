@@ -849,6 +849,8 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
+  pointer-events: none;
+
 }
 
 .travel-hero .hero-overlay {
@@ -863,8 +865,9 @@ section,
   color-mix(in srgb, var(--background-color), transparent 60%) 50%,
   color-mix(in srgb, var(--background-color), transparent 70%) 100%
 );
-;
+
   z-index: 1;
+pointer-events: none;
 }
 
 .travel-hero .hero-text .hero-title {
