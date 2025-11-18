@@ -834,6 +834,8 @@ section,
   display: flex;
   align-items: center;
   padding: 120px 0 60px 0;
+    pointer-events: none;
+
 }
 
 .travel-hero .hero-background {
@@ -843,6 +845,8 @@ section,
   width: 100%;
   height: 100%;
   z-index: 0;
+    pointer-events: none;
+
 }
 
 .travel-hero .hero-background video {
