@@ -877,7 +877,7 @@ pointer-events: none;
   .travel-hero {
 
   min-height: 55vh;
-
+  
 }
   .travel-hero .hero-background video {
     object-fit: fill; /* یا object-fit: contain اگر ترجیح می‌دهید ویدئو کشیده نشود */
@@ -889,6 +889,7 @@ pointer-events: none;
 
   min-height: 70vh;
 
+}
 }
 
 .travel-hero .hero-text .hero-title {
