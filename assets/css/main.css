@@ -874,6 +874,18 @@ section,
 pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  .travel-hero {
+
+  min-height: 55vh;
+
+}
+  .travel-hero .hero-background video {
+    object-fit: fill; /* یا object-fit: contain اگر ترجیح می‌دهید ویدئو کشیده نشود */
+    background-color: transparent !important;
+  }
+}
+
 .travel-hero .hero-text .hero-title {
   font-size: 3.5rem;
   font-weight: 700;
