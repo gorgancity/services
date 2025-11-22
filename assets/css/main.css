@@ -876,7 +876,7 @@ pointer-events: none;
 @media (max-width: 768px) {
   .travel-hero {
 
-  min-height: 55vh;
+  min-height: 50vh;
   
 }
   .travel-hero .hero-background video {
